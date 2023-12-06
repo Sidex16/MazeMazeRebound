@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1b22d599453fe2498f5382eefee87de, type: 3}
+  m_Name: AudioClipsSO
+  m_EditorClassIdentifier: 
+  buttonClick: {fileID: 8300000, guid: 21d6140d5d1a3fc46abb4b5f49f80e33, type: 3}
+  slingshot: {fileID: 8300000, guid: 49269c4a21493184b9959524b1812b02, type: 3}
+  slingshotShoot: {fileID: 8300000, guid: b355e72ae705e82478aa22831a907318, type: 3}
+  ballHit: {fileID: 8300000, guid: 91aa6e139c87cde4bb0e7049e887bc24, type: 3}
+  purchaseFail: {fileID: 8300000, guid: 42c719a720eec344e8d5eb6c5c9bef67, type: 3}
+  gameOver: {fileID: 8300000, guid: 2927e7320bcfd254ba6e9a4378272f8d, type: 3}
+  levelComplited: {fileID: 8300000, guid: 778d98b6fae6fb84baed3ea0ac1e0645, type: 3}
+  hammer: {fileID: 8300000, guid: fb4e2006f9b91fe41916c6dcd6a74592, type: 3}
+  teleport: {fileID: 8300000, guid: 4835123fd4e31294a850be7cee8fb388, type: 3}
+  powerUp: {fileID: 8300000, guid: 1b49a3464fcc5414ab9535ec17e01e3b, type: 3}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0393bf181abd6244ca2493f36ceb8d89, type: 3}
+  m_Name: BallSkinsSO
+  m_EditorClassIdentifier: 
+  ballSkins:
+  - {fileID: 7204254775893257815, guid: 3433a00d7a4d23d46adf3dc7da9d3647, type: 3}
+  - {fileID: 7204254775893257815, guid: 58770b64f0abf7b499a55001e3b4ad58, type: 3}
+  - {fileID: 7204254775893257815, guid: 7eabf8d0cd3e24442ae09d46dd39e6be, type: 3}
+  - {fileID: 7204254775893257815, guid: b7a66ced8584c3d47b23f184b3c27ac1, type: 3}
+  shadowSkins:
+  - {fileID: 7204254775893257815, guid: ffffc54280def4544bd0de910b0c6702, type: 3}
+  - {fileID: 7204254775893257815, guid: 3702e73bb00e5bb488fccf2673c1ca84, type: 3}
+  - {fileID: 7204254775893257815, guid: 98c7f534b7c17bf409565a388c2e15c0, type: 3}
+  - {fileID: 7204254775893257815, guid: a33051aa58eb4014fb42261e58a8475b, type: 3}
