@@ -47,6 +47,7 @@ public class GameplayUI : MonoBehaviour
         popUp.SetActive(true);
         OnLevelComplite?.Invoke(this, EventArgs.Empty);
         playerData.playerMoney += popUp.GetComponent<PopUpUI>().GetCoinReward();
+        playerData.levelCount++;
         playerData.lastPlayedLevelIndex = SceneManager.GetActiveScene().buildIndex + 1;
         SaveManager.SavePlayerData(playerData);
     }

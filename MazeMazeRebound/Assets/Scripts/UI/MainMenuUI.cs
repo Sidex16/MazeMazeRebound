@@ -19,7 +19,7 @@ public class MainMenuUI : MonoBehaviour
 
     private void Awake()
     {
-        SaveManager.ClearAllData();
+        //SaveManager.ClearAllData();
 
         play.onClick.AddListener(() =>
         {

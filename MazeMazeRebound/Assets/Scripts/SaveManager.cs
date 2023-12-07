@@ -7,6 +7,7 @@ public class SaveManager : MonoBehaviour
     public class PlayerData
     {
         public int playerMoney;
+        public int levelCount = 1;
         public int lastPlayedLevelIndex = 4;
         public int skinIndex = 0;
         public int teleportsCount = 1;

@@ -56,38 +56,15 @@ public class PopUpUI : MonoBehaviour
             }
         });
     }
-
-    private void Start()
-    {
-        GameplayUI.Instance.OnLevelComplite += GameplayUI_OnLevelComplite;
-        Finish.OnFinishTrigger += Finish_OnFinishTrigger;
-    }
-
-    private void Finish_OnFinishTrigger(object sender, EventArgs e)
-    {
-        
-    }
-
-    private void GameplayUI_OnLevelComplite(object sender, EventArgs e)
-    {
-        
-    }
-
     private void GetReward()
     {
         coinReward = UnityEngine.Random.Range(1000, 2001);
-        coinAmount.text = coinReward.ToString();
-        
+        coinAmount.text = coinReward.ToString();    
     }
 
     private void GetData()
     {
         playerData = SaveManager.LoadPlayerData();
-    }
-
-    private void OnDisable()
-    {
-        Finish.OnFinishTrigger -= Finish_OnFinishTrigger;
     }
 
     public int GetCoinReward()
