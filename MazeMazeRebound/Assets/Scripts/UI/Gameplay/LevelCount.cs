@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class LevelCount : MonoBehaviour
 {
-    [SerializeField] 
-    private TextMeshProUGUI levelCount;
+    [SerializeField]
+    private TextMeshProUGUI[] levelCountList;
 
     private SaveManager.PlayerData playerData;
 
@@ -14,6 +14,10 @@ public class LevelCount : MonoBehaviour
     {
         playerData = SaveManager.LoadPlayerData();
 
-        levelCount.text = "Level " + playerData.levelCount;
+        foreach (var levelCount in levelCountList)
+        {
+            levelCount.text = playerData.levelCount.ToString();
+
+        }
     }
 }
